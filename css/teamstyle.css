@@ -1,0 +1,31 @@
+main {
+  background-color: #FFF3F3; }
+
+h1 {
+  text-align: center;
+  padding: 2%;
+  color: #8E1616; }
+
+#teamoutput {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: bold; }
+  #teamoutput div {
+    max-width: 30%;
+    border-top: 1px solid black;
+    margin-top: 5%;
+    padding-top: 1%; }
+    #teamoutput div img {
+      max-width: 100%; }
+
+#favinput {
+  width: 100%;
+  text-align: center; }
+
+@media screen and (max-width: 992px) {
+  #teamoutput div {
+    max-width: 50%; } }
+
+/*# sourceMappingURL=teamstyle.css.map */
